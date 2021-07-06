@@ -25,6 +25,8 @@ git submodule update
 
 Then build using ant
 
+## usage
+
 This extension is too big to be uploaded on the standard
 mit server (ai2.appinventor.mit.edu), it requires a modified server
 where the extension upload size limit has been removed.
