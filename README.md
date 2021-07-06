@@ -9,7 +9,7 @@ https://github.com/mit-cml/extension-template
 
 see pdf document under the doc subdirectory
 
-## to rebuild
+## rebuilding
 
 You will need:
 
