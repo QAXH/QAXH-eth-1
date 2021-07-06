@@ -5,6 +5,9 @@ This repository is the java source code used to build the Ethereum extension
 This repo is using the extension template from 
 https://github.com/mit-cml/extension-template
 
+## documentation
+
+see pdf document under the doc subdirectory
 
 ## to rebuild
 
