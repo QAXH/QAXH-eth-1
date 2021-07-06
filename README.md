@@ -1,16 +1,12 @@
-# MIT App Inventor Extensions
+# MIT App Inventor Extension for Ethereum
 
-This repository is a template repository that you can use for building
-an App Inventor extension separate from the App Inventor source
-repository. It is used primarily for our system to create
-TensorFlow.js-based extensions.
+This repository is the java source code used to build the Ethereum extension
 
-To get started, place the sources for your extension under the `src/`
-directory. All of the standard annotations App Inventor provides are
-available to you. Any libraries you need should be placed under
-`lib/deps/`.
+This repo is using the extension template from 
+https://github.com/mit-cml/extension-template
 
-## Prerequisites
+
+## to rebuild
 
 You will need:
 
@@ -27,6 +23,14 @@ git submodule init
 git submodule update
 ```
 
-If you are cloning from a repository created using GitHub's template
-repository feature, you will need to run the upgrade-appinventor.sh
-script to obtain the initial dependencies.
+Then build using ant
+
+## usage
+
+This extension is too big to be uploaded on the standard
+mit server (ai2.appinventor.mit.edu), it requires a modified server
+where the extension upload size limit has been removed.
+
+However, the minimal application (.aia) in the release area can be used
+on the standard mit server, it contains this extension and nothing else
+and allows to build an application
